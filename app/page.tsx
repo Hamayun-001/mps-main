@@ -1,3 +1,7 @@
+"use client";
+
+import Faq from "@/components/FAQ";
+import LoginForm from "@/components/LoginForm";
 import CatalogBar from "@/components/CatalogBar";
 import Faq from "@/components/FAQ";
 import Navbar from "@/components/Navbar";
@@ -9,6 +13,7 @@ export default function Home() {
         <CatalogBar />
         <Navbar />
         <Faq />
+        <LoginForm/>
       </main>
     </div>
   );
