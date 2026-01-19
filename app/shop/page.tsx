@@ -2,7 +2,6 @@
 
 import InventoryPart from "@/components/InventoryPart";
 import WhyChooseUs from "@/components/WhyChooseUs";
-import Image from "next/image";
 
 export default function Shop() {
   const data = Array.from({ length: 10 }, (_, i) => i + 1);
