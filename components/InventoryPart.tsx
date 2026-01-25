@@ -41,7 +41,7 @@ export default function InventoryPart() {
 
             <h4 className="text-sm mb-2.5">Rotor</h4>
           </div>
-          <PrimaryButton text="Add to Cart" />
+          <PrimaryButton text="Add to Cart"  />
         </div>
       </div>
     </div>
