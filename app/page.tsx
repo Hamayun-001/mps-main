@@ -3,6 +3,8 @@ import CatalogBar from "@/components/CatalogBar";
 import Faq from "@/components/FAQ";
 import HeroSection from "@/components/HeroSection";
 import ActionSection from "@/components/ActionSection";
+import PurchaseOrder from "@/components/PurchaseOrder";
+import Clients from "@/components/Clients";
 
 export default function Home() {
   return (
@@ -11,8 +13,10 @@ export default function Home() {
         <HeroSection />
         <CatalogBar />
         <ActionSection />
+        <Clients />
         <Faq />
         <DiscountBanner />
+        <PurchaseOrder />
       </main>
     </div>
   );
